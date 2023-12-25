@@ -1,0 +1,143 @@
+.carrossel-title {
+    background-color: var(--header-color);
+    color: var(--yellow);
+    text-align: center;
+    font-size: 1.125rem;
+    font-weight: 700;
+    padding: 1rem;
+}
+
+.swiper-slide img {
+    width: 100%;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    display: none;
+}
+
+.swiper-pagination {
+    position: initial;
+    margin: 1rem 0;
+}
+
+
+.card {
+    background-color: var(--header-color);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 0.625rem;
+    padding: 1rem;
+    margin: 1rem;
+    gap: 1rem;
+}
+
+.card-description {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+
+
+
+
+.card-description-review {
+    margin-bottom: 0.5rem;
+}
+
+.card-actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-actions-buttons {
+    display: flex;
+}
+
+.card-actions-button {
+    display: flex;
+    padding: .5rem 2.25rem;
+    align-items: center;
+    gap: .625rem;
+    background-color: var(--yellow);
+    color: var(--header-color);
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.card-description-text-title {
+    color: var(--yellow);
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.card-description-text-book-title {
+    color: var(--blue);
+    font-size: 1.125rem;
+    font-weight: 700;
+    margin: 0.5rem 0;
+
+}
+
+.card-description-text-book-text {
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 0.875rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    .carrossel-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .carrossel-title {
+        padding: 3rem 1rem 1rem 1rem;
+        font-size: 1.625rem;
+    }
+
+    .card-description {
+        gap: 1rem;
+    }
+
+
+    .swiper-pagination {
+        margin: 2rem 0;
+    }
+
+    .swiper {
+        width: 60%;
+    }
+
+    .card {
+        width: 50%;
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+        display: block;
+        top: 60%;
+    }
+
+}
+
+
+@media screen and (min-width: 1728px) {
+
+    .carrossel-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 8rem;
+        gap: 4rem;
+    }
+
+
+}

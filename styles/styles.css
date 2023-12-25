@@ -1,0 +1,28 @@
+@import url("header.css");
+@import url("banner.css");
+@import url("carrossel.css");
+@import url("topics.css");
+@import url("contact.css");
+@import url("footer.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+
+:root {
+    --backgroud-color: #EBECEE;
+    --header-color: #FFFFFF;
+    --yellow: #EB9B00;
+    --blue: #002F52;
+    --title-grey: #858585;
+    --grey: #474646;
+
+    --font: 'Poppins';
+    --second-font: 'Josefin Sans';
+}
+
+.body {
+    background-color: var(--backgroud-color);
+    font-family: var(--font);
+}

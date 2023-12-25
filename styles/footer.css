@@ -1,0 +1,54 @@
+.footer {
+    background-color: var(--header-color);
+    padding: 1rem;
+}
+
+hr {
+    margin: 0;
+}
+
+.footer-text {
+    color: #000;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.footer-list {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        padding: 2rem;
+    }
+
+    .footer-text {
+        font-size: 1.5rem;
+    }
+
+    .footer-list {
+        display: block;
+    }
+
+    .footer-list-title {
+        color: var(--title-grey);
+        font-size: .875rem;
+        margin-bottom: 1rem;
+    }
+
+    .footer-list-item {
+        display: flex;
+        align-items: center;
+        padding: 0.5rem;
+        gap: .5rem;
+    }
+
+    .footer-list-item-link {
+        color: var(--grey);
+        text-decoration: none;
+        font-size: .875rem;
+    }
+}
